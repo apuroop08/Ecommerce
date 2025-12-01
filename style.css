@@ -754,6 +754,300 @@ body {
     z-index: -9;
 }
 
+/* about */
+
+#aBanner{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column ;
+    background-image: url(img/about/banner.png);
+    background-position: center;
+    padding: 14px;
+    background-size: cover;
+}
+
+#aBanner h2,
+#aBanner p {
+    color: #fff;
+}
+
+#aboutHead {
+    display: flex;
+    align-items: center;
+}
+
+#aboutHead img {
+    width: 50%;
+    height: auto;
+}
+
+#aboutHead div {
+    padding-left: 40px;
+}
+
+#aboutHead marquee {
+    background-color: #ccc;
+}
+
+#aboutApp {
+    text-align: center;
+}
+
+#aboutApp .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+
+}
+
+#aboutApp .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* contactUs */
+
+#cBanner{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column ;
+    background-image: url(img/about/banner.png);
+    background-position: center;
+    padding: 14px;
+    background-size: cover;
+}
+
+#cBanner h2,
+#cBanner p {
+    color: #fff;
+}
+
+#contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contactDetails .conDetails {
+    width: 40%;
+}
+
+#contactDetails .conDetails span,
+#fromDetails form span {
+    font-size: 12px;
+}
+
+#contactDetails .conDetails h2,
+#fromDetails form h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contactDetails .conDetails h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contactDetails .conDetails li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contactDetails .conDetails li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contactDetails .conDetails li p{
+    font-size: 14px;
+    margin: 0;
+}
+
+#contactDetails .map {
+    width: 55%;
+    height: 400px;
+}
+
+#contactDetails .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#fromDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#fromDetails form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#fromDetails form input,
+#fromDetails form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#fromDetails form button {
+    background-color: #eb4c20;
+    color: #fff;
+}
+
+#fromDetails .people div {
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#fromDetails .people div img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#fromDetails .people div p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#fromDetails .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;   
+}
+
+/* cart  */
+
+#cartItems .table{
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+}
+
+#cartItems table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cartItems table img {
+    width: 70px;
+}
+
+#cartItems table td:nth-child(1),
+#cartItems table td:nth-child(2),
+#cartItems table td:nth-child(3),
+#cartItems table td:nth-child(4),
+#cartItems table td:nth-child(5),
+#cartItems table td:nth-child(6) {
+    width: 100px;
+    text-align: center;
+}
+
+#cartItems table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cartItems table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+    
+}
+
+#cartItems table thead td {
+    font-weight: 700;
+    font-size: 13px;
+    padding: 18px 0;
+    text-transform: uppercase;
+}
+
+#cartItems table tbody tr td {
+    padding: 15px;
+}
+
+#cartItems  .remove {
+    color: #000;
+    font-size: 25px;
+}
+
+#cartAdd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon  h3,
+#subtotal h3 {
+    padding: 15px 10px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button {
+    background-color: #eb4c20;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+
 /* media query */
 
 @media(max-width:820px) {
@@ -826,7 +1120,6 @@ body {
 
     #products .pro {
         margin: 0 15px;
-       
     }
 
     #banner {
@@ -842,6 +1135,27 @@ body {
     #text-banner .banner-box{
         min-width: 100%;
         height: 30vh;
+    }
+
+    #bBanner {
+        height: 20vh;
+    }
+
+    #aboutHead img {
+        height: 350px;
+    }
+
+    #fromDetails {
+        padding: 30px;
+        margin: 20px;
+    }
+
+    #fromDetails form {
+        width: 60%;
+    }
+
+    #fromDetails .people {
+        padding-top: 80px;
     }
 
     #newsletter .form {
@@ -905,8 +1219,20 @@ body {
         height: 30vh;
     }
 
+    #bBanner {
+        height: 20vh;
+    }
+
     #newsletter .form {
         width: 70%;
+    }
+
+    #fromDetails .people {
+        padding-top: 80px;
+    }
+
+    #fromDetails form {
+        width: 60%;
     }
 
     #footer .column, .column_install{
@@ -1052,6 +1378,75 @@ body {
     }
 
     #blog .blogDetails {
+        width: 100%;
+    }
+
+    #aboutHead {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bBanner {
+        max-height: 15vh;
+    }
+
+    #aboutHead img {
+       width: 100%;
+    }
+
+    #aboutHead div {
+        padding: 0px;
+    }
+
+    #aboutHead h2{
+        padding-top: 10px;
+    }
+
+    #service {
+        margin-left: 18px;
+    }
+
+    #aboutApp .video {
+        width: 90%;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    #contactDetails {
+        flex-direction:column ;
+    }
+
+    #contactDetails .conDetails,
+    #contactDetails .map {
+        width: 100%;
+    }
+
+    #fromDetails {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #fromDetails form {
+        width: 100%;
+    }
+
+    #fromDetails .people {
+        padding-top: 50px;
+    }
+
+    #cartItems {
+        display: initial;
+    }
+
+    #cartAdd {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
         width: 100%;
     }
 
